@@ -1,0 +1,29 @@
+body {
+    margin: 1%;
+}
+
+header {
+    width: 100%;
+}
+
+header * {
+    display: inline-block;
+}
+
+header #profile-picture {
+    width: min(50%, 300px);
+    border-radius: 40%;
+}
+
+header #my-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: clamp(24px, 10vw, 4em);
+    backdrop-filter: ;
+}
+
+@media (max-width: 785px) {
+    header #my-name {
+        position: relative;
+        bottom: 1.5em;
+    }
+  }
